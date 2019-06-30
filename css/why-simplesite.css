@@ -1,15 +1,9 @@
+
 @font-face {
-    src: url("fonts/Touche W03 Bold.ttf");
-    font-family:"touche_bold";
-}
-@font-face {
-    src: url("fonts/Touche W03 Regular.ttf");
+    src: url("C:/Users/Monster/Desktop/simple-site-gloria-team/fonts/Touche\ W03\ Regular.ttf");
     font-family: "touche_regular";
 }
-@font-face {
-    src: url ("fonts/Touche W03 Semibold.ttf");
-    font-family: "touche_semibold";
-}
+
 body {
     background-color: rgb(246,247,249);
 }
@@ -19,18 +13,26 @@ div.first-box {
 }
 .first-box {
     padding-top: 60px;
-    border:1px solid black;
+    
 }
 
 h1 {
     text-align: center;
-    font-size: 30px;
-    font-family: 
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom:20px;
+    color:#444444;
 }
 
+hr {
+    margin :0 auto;
+    width: 80px;
+    border-bottom : 3px solid rgb(187,22,0);
+}
 img { 
     
-    border: 1px solid black;
+    
     display:inline-block;
     float:left;
     margin-top:7%;
@@ -39,15 +41,34 @@ img {
 }
 
 div.text-box {
-    border:1px solid black;
+    
     display: inline-block;
     float:left;
-    width:28%;
+    width:26%;
+    height:auto;
     margin-left: 9%;
     margin-top: 6%;
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(133, 133, 133);
+}
+div.link {
+    text-align:center;
+    background-color: rgb(172,20,0);
+    width:50%;
+    border-radius: 60px;
+    margin-top: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.link a {
+    text-decoration: none;
+    font-size: 15px;
     font-family: "touche_regular";
+    color: white;
+    letter-spacing: 2px;
 }
