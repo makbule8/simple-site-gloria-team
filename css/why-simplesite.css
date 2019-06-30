@@ -1,0 +1,53 @@
+@font-face {
+    src: url("fonts/Touche W03 Bold.ttf");
+    font-family:"touche_bold";
+}
+@font-face {
+    src: url("fonts/Touche W03 Regular.ttf");
+    font-family: "touche_regular";
+}
+@font-face {
+    src: url ("fonts/Touche W03 Semibold.ttf");
+    font-family: "touche_semibold";
+}
+body {
+    background-color: rgb(246,247,249);
+}
+div.first-box {
+    width:100%;
+    height:auto;
+}
+.first-box {
+    padding-top: 60px;
+    border:1px solid black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 
+}
+
+img { 
+    
+    border: 1px solid black;
+    display:inline-block;
+    float:left;
+    margin-top:7%;
+    margin-left: 2%;
+    
+}
+
+div.text-box {
+    border:1px solid black;
+    display: inline-block;
+    float:left;
+    width:28%;
+    margin-left: 9%;
+    margin-top: 6%;
+}
+
+p {
+    font-size: 18px;
+    font-family: "touche_regular";
+}
