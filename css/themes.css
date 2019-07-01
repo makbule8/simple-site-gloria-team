@@ -1,5 +1,6 @@
 .themes h2{
     letter-spacing: 3px;
+    color: #333;
 }
 .themes hr{
     width: 5%;
@@ -8,6 +9,7 @@
 }
 .themes p {
     color: #7d7d7d;
+    margin-bottom: 70px;
 }
 
 .themes .carousel-control-next,.themes .carousel-control-prev{
@@ -54,4 +56,15 @@
     border-color: #7d7d7d;
     border-width: 0.3em 0.3em 0 0;
     
+}
+.themes .carousel-indicators{
+    bottom: -30px;
+}
+.themes .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    background-color: #7d7d7d;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+
 }
