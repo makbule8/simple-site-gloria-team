@@ -1,36 +1,49 @@
 /*/// This section of bootstrap overwrite rules ///*/
-#mobile-ready-section h2,#mobile-ready-section p {
+
+/*/// Rules for header title and paragraph font's family, size, and weight  ///*/
+#mobile-ready-section h2 {
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-}
-#mobile-ready-section h2{
     font-weight: bold;
     font-size: 2rem;
+}
+#mobile-ready-section p {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: gray;
+}
+#mobile-ready-section p b {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: black;
 }
 #mobile-ready-section h2 div{
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 100;
+    color: gray;
 }
-
-
-#mobile-ready-section p{
-    padding-left: 10%;
+@media only screen and (min-width:990px){
+    #mobile-ready-section p{
+    margin-left: 40%;
+    }
+}
+@media only screen and (max-width:990px){
+    #mobile-ready-section p{
+    margin: 3% 8%;
+    }
 }
 
 
 /* Header Line */
 #mobile-ready-section hr{
-    width: 22%;
-    /* margin: auto 0 auto auto; */
-    border: 1.5px solid #a51300;
+    width: 90px;
+    border: 1.5px solid #8f1100;
 }
-
-
-
 
 /*Start Here Bottun*/
 .btn-lg {
     border-radius: 40px;
-    padding: .6rem 3.2rem;
-    background: #a51300;
+    padding: 0.6rem 3.2rem;
+    background: #8f1100;
     font-size: 16px;
 }
+
+/*/// End of Mobile Ready section bootstrap overwrite rules ///*/
+
