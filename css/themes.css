@@ -1,0 +1,70 @@
+.themes h2{
+    letter-spacing: 3px;
+    color: #333;
+}
+.themes hr{
+    width: 5%;
+    color: #bb1600;
+    border-top: 3px solid #bb1600;
+}
+.themes p {
+    color: #7d7d7d;
+    margin-bottom: 70px;
+}
+
+.themes .carousel-control-next,.themes .carousel-control-prev{
+    opacity: 1;
+
+}
+.themes .carousel-control-next:hover ,.themes .carousel-control-prev:hover {
+    opacity: 1;
+    
+}
+
+.themes .carousel-control-next {
+    right: -100px;
+}
+.themes .carousel-control-prev {
+    left: -100px;
+}
+.chevron::before {
+	border-style: solid;
+	border-width: 0.20em 0.20em 0 0;
+	content: '';
+	display: inline-block;
+	height: 1.45em;
+	left: 0.15em;
+	position: relative;
+	top: 0.15em;
+	transform: rotate(-45deg);
+	vertical-align: top;
+    width: 1.45em;
+    border-color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+.chevron.right:before {
+	left: 0;
+	transform: rotate(45deg);
+}
+
+.chevron.left:before {
+	left: 0.25em;
+	transform: rotate(-135deg);
+}
+.themes .carousel-control-next:hover .chevron.right:before ,.themes .carousel-control-prev:hover .chevron.left:before{
+    border-color: #7d7d7d;
+    border-width: 0.3em 0.3em 0 0;
+    
+}
+.themes .carousel-indicators{
+    bottom: -30px;
+}
+.themes .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    background-color: #7d7d7d;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+
+}
