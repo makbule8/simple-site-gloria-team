@@ -25,18 +25,18 @@
             <a href="#" class="logo">SimpleSite</a>
         </div>
         <div class="section-navbar">
-        <ul>
-            <li class="nav-item"><a  href="#" class="section">Make a free website or blog</a></li>
-            <li class="nav-item"><a  href="#" class="section">Customer Service</a></li>
-            <li class="nav-item"><a  href="#" class="section">Features</a></li>
-            <li class="nav-item"><a  href="#" class="section">Themes</a></li>
-            <li class="nav-item"><a  href="#" class="section">Blog</a></li>
-            <li class="nav-item"><a  href="#" class="section">Carees</a></li>
+        <ul >
+            <li class="nav-item"><a class="color" href="#" class="section">Make a free website or blog</a></li>
+            <li class="nav-item"><a class="color" href="#" class="section">Customer Service</a></li>
+            <li class="nav-item"><a class="color" href="#" class="section">Features</a></li>
+            <li class="nav-item"><a class="color" href="#" class="section">Themes</a></li>
+            <li class="nav-item"><a class="color" href="#" class="section">Blog</a></li>
+            <li class="nav-item"><a class="color" href="#" class="section">Carees</a></li>
         </ul>
         </div>
         <div class="navbar-right">
-                <button class="btn-login">LOG IN</button>
-                <a href="#"><i class="fas fa-globe ">  ENGLISH</i></a>
+                <button class="btn-login color color2">LOG IN</button>
+                <a href="#"><i class="fas fa-globe color">  ENGLISH</i></a>
             </div>
        
    
@@ -49,7 +49,7 @@
         <div class="hero-text">
           <h1 class="h-text">Create your website <bold>in three simple steps</bold></h1>
           <h3> <i>- It's free! -</i></h3>
-          <button class="btn-share">START  HERE</button>
+          <button class="btn-share ">START  HERE</button>
         </div>
       </div>
       
@@ -57,10 +57,14 @@
 $(window).on("scroll" , function(){
 if($(window).scrollTop())
 {
-    $('nav').addClass('trasparent');
+    $('nav').addClass('white');
+    $('.color').addClass('color-nav');
+    $('.color2').addClass('color-nav2');
 }
 else{
-    $('nav').removeClass('trasparent');
+    $('nav').removeClass('white');
+    $('.color').removeClass('color-nav');
+    $('.color2').removeClass('color-nav2');
 }
 })
 </script>
