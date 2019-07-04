@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
 
     <title>Gloria team</title>
 
@@ -23,11 +28,60 @@
 
 <body>
 
-    <!-- Start of the of the home section Nazli  -->
+<!-- Start of the of the home section Nazli  -->
+ <header>
+  <nav>
+        <div class="logo-box">
+            <a href="#" class="logo">SimpleSite</a>
+        </div>
+        <div class="section-navbar">
+        <ul >
+            <li class="nav-item"><a class="color" href="#" class="section">Make a free website or blog</a></li>
+            <li class="nav-item"><a class="color" href="#" class="section">Customer Service</a></li>
+            <li class="nav-item"><a class="color" href="#" class="section">Features</a></li>
+            <li class="nav-item"><a class="color" href="#" class="section">Themes</a></li>
+            <li class="nav-item"><a class="color" href="#" class="section">Blog</a></li>
+            <li class="nav-item"><a class="color" href="#" class="section">Carees</a></li>
+        </ul>
+        </div>
+        <div class="navbar-right">
+                <button class="btn-login color color_border">LOG IN</button>
+                <a href="#"><i class="fas fa-globe color">  ENGLISH</i></a>
+            </div>
+       
+   
+
+</nav>
+</header>
 
 
+<div class="hero-image">
+        <div class="hero-text">
+          <h1 class="h-text">Create your website <bold>in three simple steps</bold></h1>
+          <h3> <i>- It's free! -</i></h3>
+          <button class="btn-share ">START  HERE</button>
+        </div>
+      </div>
+      
+<script type="text/javascript">
+$(window).on("scroll" , function(){
+if($(window).scrollTop())
+{
+    $('nav').addClass('white');
+    $('.color').addClass('color-nav');
+    $('.color2').addClass('color-nav2');
+}
+else{
+    $('nav').removeClass('white');
+    $('.color').removeClass('color-nav');
+    $('.color_border').removeClass('color-nav_border');
+}
+})
+</script>
 
-    <!-- end fo the navbar  -->
+<!-- end fo the navbar  -->
+ 
+
 
 
     <!-- start of the themes by Nasser -->
@@ -106,9 +160,33 @@
             </div>
         </div>
     </div>
-    <!-- end of simplesite  -->
 
-    <!-- start of mobile ready by Rabie  -->
+<!-- end of simplesite  -->
+  <div class="clearfix" ></div>
+<!-- start of mobile ready by Rabie  -->
+<div class="container-fluid my-lg-5 mx-auto px-0" id="mobile-ready-section">
+    <div class="row">
+        <div class="col-lg-5 text-lg-right text-center mt-5 pl-lg-5">
+            <h2>
+                MOBILE READY
+                <div>EDIT ON-THE-GO</div>
+            </h2>
+            <hr class="ml-lg-auto mr-lg-0 mx-auto my-4">
+            <p class="">
+                What makes SimpleSite stand out is that we are the only website builder that fully supports <b>mobile-friendly editing</b> in a mobile browser - no special app needed! This means you can view and edit your website on your smartphone.
+            </p>
+            <p class="mb-5">
+                SimpleSite automatically gives you a website that looks stunning on both desktop and mobile. On top of that we also have a full mobile-optimized interface that gives you the freedom to access and edit everything on mobile devices. Edit the design and content of your website from the comfort of your couch or on the go - it’s all possible with SimpleSite’s mobile website editor.
+            </p>
+            <button class="btn btn-danger btn-lg mb-5">START HERE</button>
+        </div>
+        <div class="col-lg-6 mt-lg-5 ml-lg-4 pt-lg-5 pl-lg-5 px-md-5 mx-md-5">
+            <img src="images/mytravelblog.png" alt="mobile ready image" width="100%">
+        </div>
+    </div>
+
+
+</div>
 
 
     <!-- end of the mobile ready -->
