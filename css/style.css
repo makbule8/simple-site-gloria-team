@@ -4,12 +4,9 @@
 @import 'why-simplesite.css';
 @import 'footer.css';
 @import 'themes.css';
-
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "touche-bold";
+    font-family: Arial, Helvetica, sans-serif;
 }
-
